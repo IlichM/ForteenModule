@@ -9,7 +9,7 @@ class STWExample {
                 List<byte[]> bytes = new LinkedList<>();
                 for (int i = 0; i < 100; i++) {
                     bytes.add(new byte[1024 * 1024]);
-                    //sleep(20);
+                    sleep(20);
                 }
             }
         });
